@@ -35,6 +35,8 @@ for ( let i = 0; i < size; i++ ) {
   left_to_right = -4.5
   for ( let j = 0; j < divisions; j++ ) {
     // Create Particles 
+    // PointCloudMaterial in Forge Viewer
+    // PointCloud in Forge Viewer
     var particles = new THREE.Points(geometry, new THREE.PointsMaterial({
       color: 0xffffff,
       transparent: true,
@@ -62,7 +64,7 @@ scene.add( group );
 
 // Change color of the top left particles
 group.children[0].material = group.children[0].material.clone();
-group.children[0].material.color.setHex( 0xFF0000)
+group.children[0].material.color.setHex( 0xFFFF00)
 
 var axis = new THREE.Vector3( 1, 1, 0 ).normalize();
 var degrees = Math.PI * 0.01
@@ -72,8 +74,8 @@ var update = function(){
   // rotate torus each frame 
   for (let index = 0; index < group.children.length; index++) {
     group.children[index].matrixAutoUpdate = true;
-    group.children[index].rotation.x += 0.05
-    group.children[index].rotation.z += 0.05
+    //group.children[index].rotation.x += 0.05
+    //group.children[index].rotation.z += 0.05
     group.children[index].rotateOnAxis(axis, degrees )
     
   }

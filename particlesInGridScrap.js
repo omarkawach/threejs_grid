@@ -1,5 +1,3 @@
-// Source: https://codepen.io/zadvorsky/pen/qOYqGv
-
 var scene = new THREE.Scene();
 // degrees, ratio, near clicking plane and far clicking plane
 var camera = new THREE.PerspectiveCamera(12, window.innerWidth / window.innerHeight, 1, 1000 );
