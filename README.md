@@ -22,7 +22,7 @@ This repo demonstrates my learning process in preperation for the October 2020 o
 
 For the sake of learning how to translate objects onto specific x,y,z positions, a grid helper is in each file. Also, I've chosen BoxGeoemtry for each file for consistency, but you can change to any geometry you like. Also, be aware that BoxGeometry is less performance friendly than BoxBufferGeometry when rendering. You can convert between the two types using .fromGeometry and .fromBufferGeometry ([source](https://stackoverflow.com/questions/49956422/what-is-difference-between-boxbuffergeometry-vs-boxgeometry-in-three-js)). The code in this repo does not explore such actions. 
 
-######/index.js
+###### /index.js
 
 Material: 
   - THREE.PointsMaterial(params)
@@ -31,7 +31,7 @@ Output:
 
 ![](img/boxesInGrid.gif)
 
-######/boxesInGrid.js
+###### /boxesInGrid.js
 
 Material:
   - THREE.MeshBasicMaterial(params)
@@ -40,7 +40,7 @@ Output:
 
 ![](img/boxesInGrid.png)
 
-######/particlesInGridScrap.js
+###### /particlesInGridScrap.js
 
 Material: 
     - THREE.MeshBasicMaterial(params)
