@@ -1,6 +1,6 @@
 # Three.js (r121) Starter Guide
 
-This repo demonstrates my learning process in preperation for the October 2020 online [AEC Hackathon](https://aechackathon.com/). I experimented with scenes, cameras, renders, geometries, groups, etc. Unfortunately, AutoDesk Forge Viewer v7 restricts users to Three.js r71 (outdated), which means some of the practice will need to be won't apply directly.
+This repo demonstrates my learning process in preperation for the October 2020 online [AEC Hackathon](https://aechackathon.com/). I experimented with scenes, cameras, renders, geometries, groups, etc. Unfortunately, AutoDesk Forge Viewer v7 restricts users to Three.js r71 (outdated), which means some of the practice won't apply directly.
 
 ## Getting Started 
 
